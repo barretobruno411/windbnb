@@ -1,0 +1,8 @@
+header {
+
+    height: calc(44px - 14px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: calc(4vh - 14px);
+}
