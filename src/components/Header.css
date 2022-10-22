@@ -1,8 +1,9 @@
 header {
-
-    height: calc(44px - 14px);
+    --heigth: 120px;
+    height: var(--heigth);
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
     padding: calc(4vh - 14px);
+    border: solid 1px;
 }
